@@ -34,7 +34,21 @@ from core import (
     pytgcalls, set_group, set_title, all_groups, clear_queue, check_yt_url,
     extract_args, start_stream, shuffle_queue, delete_messages,
     get_spotify_playlist, get_youtube_playlist)
+from flask import Flask
+import threading
 
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Bot is Running!"
+
+def run_web():
+    # Render default port 10000 use karta hai
+    app.run(host='0.0.0.0', port=10000)
+
+# Bot start hone se pehle web server chalao
+threading.Thread(target=run_web).start()
 
 REPO = """
 🤖 **Music Player**
