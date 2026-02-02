@@ -1,4 +1,4 @@
-yt-dlp
+Yt-dlp
 pytube
 pillow
 spotipy
@@ -9,4 +9,5 @@ python-dotenv
 youtube-search-python
 https://github.com/PyrogramMod/PyrogramMod/archive/refs/heads/main.zip
 pyrogram==1.4.16
-py-tgcalls==0.8.4
+py-tgcalls==0.8.6
+flask
