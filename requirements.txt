@@ -9,3 +9,5 @@ py-tgcalls
 python-dotenv
 youtube-search-python
 https://github.com/PyrogramMod/PyrogramMod/archive/refs/heads/main.zip
+pyrogram==1.4.16
+py-tgcalls==0.8.4
